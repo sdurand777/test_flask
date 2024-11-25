@@ -1,0 +1,9 @@
+
+# lister les fichiers ply accessibles
+curl http://127.0.0.1:5000/files
+
+# recuperer un fichier ply
+curl -O http://127.0.0.1:5000/download/fichier7.ply
+
+# clean les fichiers ply
+curl -X POST http://127.0.0.1:5000/clean
